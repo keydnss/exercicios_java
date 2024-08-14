@@ -1,4 +1,4 @@
-//Calculando a área de um trapézio
+//Calculando a área de um trapézio pré definido.
 
 public class exercicio01{
     public static void main(String[] args){

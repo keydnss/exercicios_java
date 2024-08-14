@@ -1,6 +1,6 @@
 //Calculando a área de um trapézio
 
-public class Main25{
+public class exercicio01{
     public static void main(String[] args){
         int b,B,h;
         float area;

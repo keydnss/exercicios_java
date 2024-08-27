@@ -13,12 +13,12 @@ public class exercicio04 {
 
         System.out.println("Digite o numero do funcionário: ");
         numero = sc.nextInt();
-        System.out.println("Digite as horas trabalhadas:");
+        System.out.println("Digite as horas trabalhadas por semana:");
         horas = sc.nextInt();
         System.out.println("Digite o valor ganho por hora: ");
         porhora = sc.nextDouble();
 
-        salario = horas*porhora;
+        salario = (horas*4)*porhora;
 
         System.out.println("\nNúmero do funcionário: "+numero);
         System.out.printf("Salário: R$%.2f", salario);
